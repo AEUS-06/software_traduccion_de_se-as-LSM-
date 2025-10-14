@@ -1,9 +1,9 @@
-*introduccion
-*antecedentes 
-*objetivos 
-**generales 
-**especificos 
-*metas
-*justificacion 
-*marco teorico
-*estado del arte
+*introduccion //ana
+*antecedentes lily
+*objetivos //ana
+**generales //ana
+**especificos //ana
+*metas//lily
+*justificacion //axel
+*marco teorico//axel
+*estado del arte//todos
