@@ -1,0 +1,11 @@
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduccion}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Objetivo General}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Objetivos Especificos}{4}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Marco Teórico}{5}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Comunicación y discapacidad auditiva}{5}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Tecnologías aplicadas al reconocimiento de lenguaje de señas}{6}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Inteligencia artificial y aprendizaje profundo}{6}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Inclusión social y accesibilidad tecnológica}{7}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Conclusión del marco teórico}{7}{section.4.5}%

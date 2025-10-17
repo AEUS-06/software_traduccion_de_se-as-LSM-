@@ -50,6 +50,69 @@
 
 % ---------- CAPÍTULOS ----------
 %include{capitulo1}
+\chapter{Introduccion}
+Introduccion
+La comunicación entre personas sordas y oyentes ha sido un reto social y tecnológico durante décadas a pesar de ser uno de los pilares mas importantes de la sociedad, ya que permite la interacción, el aprendizaje y la inclusión. Sin embargo, las personas con discapacidad auditiva enfrentan grandes dificultades para comunicarse con quienes no dominan el lenguaje de señas. En México, esta situación limita su acceso a la educación, al trabajo y la vida cotidiana.
+En las últimas décadas, el desarrollo tecnológico ha buscado ofrecer soluciones que promuevan la inclusión y la igualdad de oportunidades. La creación de herramientas que faciliten la comunicación entre personas sordas y oyentes representa un campo de gran interés, en el cual convergen la ingeniería, la informática y las ciencias sociales.
+En este contexto, resulta relevante explorar proyectos enfocados en el uso de la tecnología para mejorar los procesos de interpretación y comprensión del lenguaje de señas. Este tipo de iniciativas contribuye no solo al avance tecnológico, sino también al fortalecimiento del desarrollo humano y la inclusión social.
+Finalmente, el presente documento plantea una propuesta orientada al análisis y diseño de soluciones que favorezcan la accesibilidad comunicativa mediante el uso de herramientas digitales y de inteligencia artificial, con el propósito de fomentar una sociedad más equitativa e inclusiva.
+\chapter{Objetivo General}
+Objetivo general
+Desarrollar un algoritmo inteligente que permita la traducción en tiempo real del Lenguaje de Señas Mexicano (LSM) al lenguaje oral y escrito, y viceversa, con el fin de facilitar la comunicación entre personas sordas y oyentes, promoviendo la inclusión social, la igualdad de oportunidades y el acceso equitativo a la información.
+\chapter{Objetivos Especificos}
+\begin{enumerate}
+  \item Analizar las principales barreras de comunicación que enfrenta la comunidad sorda en su interacción con personas oyentes.
+  \item Investigar tecnologías actuales aplicadas al reconocimiento de gestos y traducción automática.
+  \item Mejorar  la eficiencia y precisión del sistema mediante pruebas con distintos conjuntos de datos de lenguaje de señas utilizando distinta librerías de Python
+  \item Incluir y evaluar librerías eficientes de Python (como OpenCV, TensorFlow o PyTorch) para optimizar la captura, procesamiento y traducción de los gestos.
+  \item Aplicar pruebas con distintos conjuntos de datos de LSM para mejorar la precisión y eficiencia del algoritmo, ajustando parámetros de la red neuronal según los resultados obtenidos.
+  \item Optimizar el rendimiento del sistema mediante técnicas de ajuste de modelo, reducción de latencia y manejo eficiente de recursos computacionales para garantizar traducción en tiempo real
+
+\end{enumerate}
+
+\chapter{Marco Teórico}
+
+\section{Comunicación y discapacidad auditiva}
+La comunicación constituye una de las funciones más esenciales del ser humano, al ser el medio por el cual se transmiten ideas, emociones y conocimientos. Sin embargo, para las personas con discapacidad auditiva, esta capacidad se ve limitada por la ausencia de un canal auditivo funcional, lo que genera barreras significativas en los ámbitos educativo, laboral y social.
+
+En México, la comunidad sorda ha desarrollado el \textbf{Lenguaje de Señas Mexicano (LSM)} como un sistema lingüístico propio, con estructura gramatical y sintáctica independiente del español oral. No obstante, la falta de conocimiento general sobre el LSM entre la población oyente provoca dificultades de integración y comunicación efectiva, lo que amplía la brecha de exclusión social.
+
+El reconocimiento oficial del LSM como lengua nacional en 2005 representó un avance importante hacia la inclusión; sin embargo, su enseñanza y uso cotidiano siguen siendo limitados. Esta situación refuerza la necesidad de crear herramientas tecnológicas que funcionen como puente comunicativo entre personas sordas y oyentes, permitiendo la interacción en tiempo real sin necesidad de un intérprete humano.
+
+\section{Tecnologías aplicadas al reconocimiento de lenguaje de señas}
+El reconocimiento automático de señas ha sido un campo de estudio multidisciplinario en el que convergen áreas como la \textbf{visión por computadora}, el \textbf{procesamiento de imágenes}, la \textbf{inteligencia artificial} y la \textbf{lingüística computacional}.
+
+Los sistemas tradicionales utilizaban guantes sensoriales o dispositivos de seguimiento para registrar el movimiento de las manos, pero estos enfoques presentaban limitaciones de costo, comodidad y precisión.
+
+Con el desarrollo de algoritmos más avanzados y el auge del aprendizaje profundo, surgieron nuevas alternativas basadas en el uso de cámaras convencionales y redes neuronales convolucionales (CNN), capaces de detectar patrones visuales en imágenes o videos. Estas tecnologías permiten reconocer gestos, posturas y expresiones faciales de manera más natural y accesible.
+
+Entre las herramientas más utilizadas en el desarrollo de este tipo de sistemas destacan:
+\begin{itemize}
+  \item \textbf{OpenCV}, que facilita el procesamiento de imágenes y la detección de movimientos.
+  \item \textbf{TensorFlow} y \textbf{PyTorch}, frameworks de aprendizaje profundo empleados para entrenar modelos de reconocimiento de patrones complejos.
+  \item \textbf{MediaPipe}, una biblioteca desarrollada por Google que permite el rastreo eficiente de manos y rostros en tiempo real.
+\end{itemize}
+
+El uso combinado de estas herramientas permite construir modelos capaces de traducir gestos del LSM a texto o voz, y viceversa, optimizando la comunicación entre personas sordas y oyentes.
+
+\section{Inteligencia artificial y aprendizaje profundo}
+La inteligencia artificial (IA) ha revolucionado la forma en que las computadoras interpretan el entorno visual y lingüístico. En el contexto del reconocimiento de señas, la IA permite que los sistemas aprendan de grandes volúmenes de datos para mejorar progresivamente su precisión y adaptabilidad.
+
+El \textbf{aprendizaje profundo (deep learning)}, una subárea de la IA, utiliza redes neuronales artificiales con múltiples capas ocultas que simulan el funcionamiento del cerebro humano. Estas redes son especialmente útiles en tareas de clasificación de imágenes y secuencias de video, donde los modelos aprenden a distinguir características relevantes de los gestos manuales y faciales.
+
+En proyectos de traducción de LSM, las CNN se emplean para el reconocimiento espacial (posición y forma de la mano), mientras que las redes recurrentes (RNN o LSTM) pueden utilizarse para analizar la secuencia temporal de los movimientos, permitiendo una traducción fluida y contextualizada.
+
+\section{Inclusión social y accesibilidad tecnológica}
+La accesibilidad digital es un componente fundamental del desarrollo social y tecnológico contemporáneo. Las Naciones Unidas han señalado la necesidad de garantizar la igualdad de oportunidades para las personas con discapacidad, fomentando la creación de tecnologías inclusivas.
+
+Un sistema capaz de traducir en tiempo real el LSM representa un paso significativo hacia la eliminación de barreras comunicativas, contribuyendo a la inclusión educativa, laboral y social. Además, el impacto de este tipo de herramientas trasciende el ámbito tecnológico: promueve la empatía, la sensibilización y la participación activa de la comunidad sorda en la sociedad.
+
+\section{Conclusión del marco teórico}
+El estudio de los sistemas de traducción del Lenguaje de Señas Mexicano se enmarca en la intersección entre la ingeniería, la inteligencia artificial y las ciencias sociales. El análisis de las tecnologías actuales demuestra que es posible desarrollar un modelo capaz de reconocer y traducir gestos de manera eficiente y en tiempo real, contribuyendo así a la reducción de las barreras comunicativas.
+
+Este marco teórico sustenta la necesidad de continuar con el desarrollo de herramientas tecnológicas que promuevan la inclusión, la igualdad y la accesibilidad universal.
+
+
 
 % ---------- BIBLIOGRAFÍA ----------
 \bibliographystyle{IEEEtran}
